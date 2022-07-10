@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_add_product"
+        android:orderInCategory="100"
+        android:title="Add Product"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/menu_register"
+        android:orderInCategory="100"
+        android:title="Register"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/menu_login"
+        android:orderInCategory="100"
+        android:title="Login"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/menu_category"
+        android:orderInCategory="100"
+        android:title="Category"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/menu_signout"
+        android:orderInCategory="100"
+        android:title="Signout"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/menu_notification"
+        android:orderInCategory="100"
+        android:title="notification"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/menu_cart"
+        android:icon="@drawable/ic_cart"
+        android:orderInCategory="100"
+        android:title="cart"
+        app:showAsAction="always"/>
+
+
+
+</menu>

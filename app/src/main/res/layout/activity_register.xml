@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/register"
+    tools:context=".activities.LoginActivity">
+
+
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/logo"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <LinearLayout
+        android:id="@+id/ll_sign_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_logo"
+        tools:ignore="MissingConstraints">
+
+        <com.example.buunytoys.utility.MSPTextViewBold
+            android:id="@+id/tv_hd_register"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Register"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/iv_logo"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp">
+
+        <com.example.buunytoys.utility.MSPEditText
+            android:id="@+id/et_first_name"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:hint="First name"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="30dp"
+            tools:layout_editor_absoluteY="218dp" />
+
+        <com.example.buunytoys.utility.MSPEditText
+            android:id="@+id/et_last_name"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:hint="Last name"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="30dp"
+            tools:layout_editor_absoluteY="218dp" />
+
+        <com.example.buunytoys.utility.MSPEditText
+            android:id="@+id/et_email"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:hint="Email"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="30dp"
+            tools:layout_editor_absoluteY="218dp" />
+
+        <com.example.buunytoys.utility.MSPEditText
+            android:id="@+id/et_password"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:inputType="textPassword"
+            android:hint="Password"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="30dp"
+            tools:layout_editor_absoluteY="291dp" />
+
+        <com.example.buunytoys.utility.MSPEditText
+            android:id="@+id/et_confirm_password"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:inputType="textPassword"
+            android:hint="Confirm password"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="30dp"
+            tools:layout_editor_absoluteY="291dp" />
+
+        <LinearLayout
+            android:id="@+id/ll_add_photo"
+            android:layout_width="350dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iv_add_photo"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_add_photo"/>
+
+            <com.example.buunytoys.utility.MSPTextView
+                android:id="@+id/tv_add_photo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:text="Choose profile photo"/>
+        </LinearLayout>
+
+        <com.example.buunytoys.utility.MSPButton
+            android:id="@+id/btn_register"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/button_background"
+            android:textColor="@color/colorPrimary"
+            android:text="Register"/>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

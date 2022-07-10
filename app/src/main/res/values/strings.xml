@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name" translatable="false">Buuny Toys</string>
+
+    <string name="go_to_add_product" translatable="false"><u>Go to Add Product</u></string>
+</resources>

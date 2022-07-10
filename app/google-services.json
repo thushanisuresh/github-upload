@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "554654396654",
+    "project_id": "buuny-toys",
+    "storage_bucket": "buuny-toys.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:554654396654:android:8ba6296fa5f93926c083ff",
+        "android_client_info": {
+          "package_name": "com.example.buunytoys"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "554654396654-44t1or7m969q7heh8ej1aqmiv383s5rb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJB9n6IeBHx3YkPTpsLnuQeeuJMn2UAsQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "554654396654-44t1or7m969q7heh8ej1aqmiv383s5rb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
